@@ -1,8 +1,8 @@
-# Docker Node Typescript Starter Project
+# Pathways
 
 
 ## Installing
-`git clone https://github.com/stephengardner/Docker-Node-Typescript.git` (or npm: `npm i docker-node-typescript`)
+`git clone https://github.com/jenrogers1207/Pathways` (or npm: `npm i docker-node-typescript`)
 
 `cd docker-node-typescript`
 
