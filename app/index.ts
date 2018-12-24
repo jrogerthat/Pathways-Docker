@@ -2,11 +2,12 @@ const app = require('express')();
 const http = require('http');
 const server = http.createServer(app);
 
-
 app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/');
+  //res.sendFile(__dirname + '/style/');
+  //res.sendFile(__dirname + '/index.html');
 });
-
+//app.use(app.static(__dirname + '/'))
 
 
 app.set('port', (process.env.PORT || 3000));
