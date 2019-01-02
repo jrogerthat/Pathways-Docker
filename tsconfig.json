@@ -1,20 +1,12 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./dist/",
+    "noImplicitAny": true,
     "sourceMap": true,
-    "declaration": false,
-    "module": "commonjs",
+    "target": "es2015",
     "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "ES6"
+    "allowJs": true
   },
-  "include": [
-    "**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ]
+  "awesomeTypescriptLoaderOptions": {
+    "transpileOnly": true
+  }
 }
